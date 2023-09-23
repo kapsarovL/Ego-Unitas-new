@@ -1,0 +1,282 @@
+@import "./base.css";
+
+a {
+  text-decoration: none;
+}
+
+.home__content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 500px;
+  left: 500px;
+  max-width: 900px;
+  max-height: 300px;
+}
+
+.home__title {
+  color: white;
+  font-family: var(--font-family);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10px;
+  text-shadow: 1px 1px 2px white;
+  mix-blend-mode: overlay;
+}
+
+.home__para {
+  display: block;
+
+  color: white;
+  flex-direction: column;
+  word-wrap: wrap;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  text-shadow: -1px 0 #0f0f0f, 0 1px #000000, 1px 0 #030303, 0 -1px #080808;
+  mix-blend-mode: overlay;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(180deg, #12385c, #289cd9);
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  color: var(--secondary-text-clr);
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  border: 1px;
+  text-align: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.team__section-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-contnet: center;
+  background-image: url("../images/eclipsvectors 1.png");
+  background-size: 55% 65%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.team__section-content {
+  background-image: url("../images/ego u logo finallll 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  position: center;
+  height: 150px;
+  width: 160px;
+  margin-top: 21rem;
+
+  align-items: center;
+  justify-contnet: center;
+  //border: 1px solid white;
+}
+
+.logo {
+  display: flex;
+  height: 50px;
+  width: 160px;
+  padding: 1rem;
+  padding-top: 9rem;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  //border: 1px solid #fff;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.team__meambers {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.lecturer-1 {
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-right: 22rem;
+  margin-top: 2.5rem;
+  //border: 1px solid gold;
+}
+.lecturer-2 {
+  display: inline-block;
+  max-width: 380px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 25px;
+  margin-left: 285px;
+  margin-top: -2%;
+  margin-bottom: -10%;
+  //border: 1px solid gold;
+  flex: 0 0 auto;
+}
+
+.lecturer-3 {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  margin-left: 23rem;
+  margin-right: 25rem;
+  margin-top: -15rem;
+  //border: 1px solid gold;
+}
+.lecturer-4 {
+  width: 480px;
+  height: 70px;
+  align-items: center;
+  text-align: center;
+  justify-items: flex-end;
+  margin-top: 7px;
+  margin-right: 25%;
+  margin-left: 52%;
+
+  // border: 1px solid gold;
+  line-height: 14px;
+}
+
+.lecturer-5 {
+  width: 480px;
+
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 45px;
+  margin-top: -80px;
+  margin-bottom: 10px;
+  //border: 1px solid gold;
+  line-height: 15px;
+}
+.lecturer-6 {
+  width: 480px;
+  height: 70px;
+  align-items: center;
+  text-align: center;
+  justify-items: space-betwween;
+
+  margin-top: 45px;
+  bottom: 25px;
+  //border: 1px solid gold;
+  line-height: 12px;
+}
+
+.lecturer-7 {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 23rem;
+  margin-top: 2.5rem;
+  border: 1px solid gold;
+}
+.lecturer-8,
+.lecturer-9 {
+  display: inline-block;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  right: 30rem;
+  margin-top: 3rem;
+  border: 1px solid gold;
+}
+
+ {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 23rem;
+  margin-top: 2.5rem;
+  border: 1px solid gold;
+}
+.lecturer-10 {
+  display: inline-block;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  right: 30rem;
+  margin-top: 3rem;
+  border: 1px solid gold;
+}
+
+.lecturer-11 {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 23rem;
+  margin-top: 2.5rem;
+  border: 1px solid gold;
+}
+.lecturer-12 {
+  display: inline-block;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  right: 30rem;
+  margin-top: 3rem;
+  border: 1px solid gold;
+}
+
+.lecturer-13 {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 23rem;
+  margin-top: 2.5rem;
+  border: 1px solid gold;
+}
+.lecturer-14 {
+  display: inline-block;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  right: 30rem;
+  margin-top: 3rem;
+  border: 1px solid gold;
+}
+
+.lecturer-15 {
+  display: inline-block;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  right: 30rem;
+  margin-top: 3rem;
+  border: 1px solid gold;
+}
+
+.lecturer-16 {
+  display: inline-block;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  right: 30rem;
+  margin-top: 3rem;
+  border: 1px solid gold;
+}
