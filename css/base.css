@@ -1,7 +1,6 @@
 :root {
   --primary-text-clr: #030d12;
   --secondary-text-clr: #fdc781;
-
   --font-family: "Cabin", sans-serif;
 }
 
@@ -9,6 +8,12 @@
   box-sizing: border-box;
 }
 
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body,
 html {
   margin: 0;
   padding: 0;
@@ -18,52 +23,31 @@ body {
   font-family: var(--font-family);
   color: var(--secondary-text-clr);
   margin: 0 auto;
-  overflow-x: hidden;
+  line-height: 1.5;
 }
 
-header {
-  display: flex;
-  position: sticky;
-  align-items: center;
-  justify-content: flex-end;
-  background-color: transparent;
-  height: 70px;
-  width: 100%;
-  text-align: justify;
-  flex-shrink: 0;
-  gap: 1rem;
-}
 
 section {
-  max-height: 100vh;
-  margin: 0 auto;
-  padding: 0;
-}
-
-article {
-  font-family: var(--font-family);
-  font-size: 14px;
-  font-weight: 400;
-}
-
-article span {
-  font-family: var(--font-family);
-  font-size: 16px;
-  font-weight: 600;
-}
-
-#home__section {
-  background-image: url("../images/bg-hero.png");
-  background-position: center;
-  backgorund-size: cover;
-  background-repeat: no-reapeat;
-}
-
-#team__section-bg {
+  max-width: 100vw;
   height: 100vh;
-  background-image: url("../images/bg 2.png");
+}
+
+
+#home__section-bg {
+  height: 100vh;
+  background-image: url("../assets/images/bg 2.png");
   background-position: center;
   backgorund-size: cover;
   background-repeat: no-reapeat;
   background-attachment: fixed;
 }
+
+#team__section-bg {
+  height: 100vh;
+  background-image: url("../assets/images/bg 2.png");
+  background-position: center;
+  backgorund-size: cover;
+  background-repeat: no-reapeat;
+  background-attachment: fixed;
+}
+
