@@ -103,17 +103,17 @@ h1.home__title{
   margin-top: 5px 0; 
   line-height: .2;
   font-style: normal;
-  font-weight: 400;;
+  font-weight: 500;;
   mix-blend-mode: overlay;
 }
 
 .home__para {
+font-family: var(--font-family);
   color: white;
   font-size: 40px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
-  //text-shadow: -1px 0 #63abee, 0 1px #c5c5c5, 1px 0 #3e8eb3, 0 -1px #afdbf8;
   mix-blend-mode: overlay;
   line-height: 1;
 }
@@ -133,23 +133,33 @@ h1.home__title{
   font-style: normal;
   border: 1px;
   text-align: center;
-  flex-shrink: 0;
+  letter-spacing: 0.05em;
   cursor: pointer;
 }
 
-.button:hover {
+.button:hover{
   transform: scale(0.98);
+  box-shadow: 0 0 10px 30px #de43f33d;
 }
 
 .team__section {
+ 
   background-image: url('../assets/images/eclipsvectors 1.png');
-  background-size: 66% 80%;
+  background-size: 66% 70%;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   //border: 1px solid white;
 }
-
+.container {
+  
+ 
+  width: 100%;
+  height: 100%;
+ 
+  padding: 0;
+  //border: 1px solid white;
+}
 
 span.logo img
  {
@@ -159,11 +169,11 @@ span.logo img
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 150px;
-  top: 42%;
+  height: 128px;
+  top: 44%;
   margin: 0 auto;
   padding: 0;
-  margin-left: 46%;
+  margin-left: 46.5%;
   //border: 1px solid white;
 }
 
@@ -173,8 +183,8 @@ span.logo img
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 150px;
-  top: 34%;
+  height: 148px;
+  top: 44%;
   margin: 0 auto;
   padding: 0;
   margin-left: 48.7%;
@@ -186,7 +196,7 @@ span .logo-btn {
   align-items: center;
   justify-content: center;
   //background-image: linear-gradient(180deg, #12385c, #289cd9);
-top: 39.5%;
+top: 42.5%;
 font-size: 16px;
 
 text-align: center;
@@ -208,7 +218,7 @@ padding: 5px 10px;
 
 .textbox {
   max-width: 350px;
-  height: 200px;
+  //height: 200px;
   align-items: center;
   align-content: justify;
   color: var(--secondary-text-clr);
@@ -223,7 +233,7 @@ padding: 5px 10px;
 .textbox h3 {
 
   font-family: var(--font-family);
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: 0.08em;
@@ -235,10 +245,10 @@ padding: 5px 10px;
   height: 100px;
   flex-shrink: 1;
   flex-grow: 0;
-  flex-basis: auto;
+  
   flex-direction: column;
   font-family: var(--font-family);
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   color: var(--secondary-text-clr);
   font-weight: 400;
@@ -249,92 +259,119 @@ padding: 5px 10px;
 }
 /*Anamarija*/
 .box-1 {
-  margin-top: -7.5%;
-  margin-left: 40%;
+  width: 300px;
+  margin-top: -3.5%;
+  margin-left: 42%;
   padding: 0;
 }
 /*Gorgi*/
 .box-2 {
+  width: 280px;
   margin-top: -3.5%;
-  margin-left: 20%;
+  margin-left: 25%;
   padding: 0;
 }
 /*Cvetanka*/
 .box-3 {
-  margin-top: -5%;
-  margin-right: 20%;
+  width: 280px;
+  margin-top: -5.3%;
+  margin-right: 25%;
 }
 /*Zlatica*/
 .box-4 {
-  margin-top: 0%;
-  margin-right: 16%;
+  width: 269px;
+  margin-top: -0.7%;
+  margin-right: 17%;
 }
 /*Biljana*/
 .box-5 {
+  width: 269px;
   margin-top: -6.2%;
-  margin-left: 14%;
+  margin-left: 16%;
 }
 /*Meri*/
 .box-6 {
-  margin-top: 1.5%;
-  margin-left: 9.7%;
+  width: 227px;
+  margin-top: 0.1%;
+  margin-left: 15%;
 }
 /*Maja*/
 .box-7 {
-  margin-top: -6.7%;
-  margin-right: 11%;
+  width: 284px;
+  margin-top: -6%;
+  margin-right: 13%;
 }
 /*Dragica*/
 .box-8 {
-  margin-top: 3.2%;
-  margin-left: 8%;
+  width: 282px;
+  margin-top: 2%;
+  margin-left: 13%;
 }
 /*Verica*/
 .box-9 {
-  margin-top: -7.2%;
-  margin-right: 7.5%;
+  width: 300px;
+  margin-top: -6.6%;
+  margin-right: 10.5%;
 }
 /*Blaze*/
 .box-10 {
-  margin-top: 2.5%;
-  margin-left: 9%;
+  width: 215px;
+  margin-top: 0.5%;
+  margin-left: 15%;
 }
 /*Nadica*/
 .box-11 {
-  margin-top: -4.7%;
-  margin-right: 10%;
+  width: 280px;
+  margin-top: -3.7%;
+  margin-right: 15%;
 }
 /*Katerina*/
 .box-12 {
-  margin-top: -0.2%;
-  margin-left: 12%;
+  width: 298px;
+  margin-top: -1.2%;
+  margin-left: 15%;
 }
 /*Dimitar*/
 .box-13 {
-  margin-top: -3.8%;
-  margin-right: 13%;
+  width: 280px;
+  margin-top: -4.5%;
+  margin-right: 18%;
+  align: top;
+  text-align: center;
 }
 /*Zorica*/
 .box-14 {
-  margin-top: -0.1%;
-  margin-left: 20%;
+  width: 231px;
+  margin-top: -0.4%;
+  margin-left: 25%;
+  align: top;
 }
 /*Biserka*/
 .box-15 {
-  margin-top: -5%;
-  margin-right: 21%;
+  width: 280px;
+  margin-top: -4.4%;
+  margin-right: 24%;
+  align: top;
 }
 /*Marija*/
 .box-16 {
-  
+  width: 341px;
   margin: 0 auto;
-  margin-top: 1%;
-  margin-left: 40.5%;
+  margin-top: 0.4%;
+  margin-left: 41%;
+  align: top;
+  text-align: center;
 }
 
-
-
-
+.banner-left {
+  left:0;
+}
+.banner-right {
+ 
+  right: 25rem;
+  float: right;
+  border: 1px solid white;
+}
 .about__section {
   width: 1440px;
   height: 70%;
@@ -344,3 +381,40 @@ padding: 5px 10px;
 margin-top: 16%;
 }
 
+
+
+@media (max-width: 460px) {
+  .home__section: {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home__content {
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .home__para {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    //text-shadow: -1px 0 #63abee, 0 1px #c5c5c5, 1px 0 #3e8eb3, 0 -1px #afdbf8;
+    mix-blend-mode: overlay;
+    line-height: 1;
+  }
+  .home__title h1{
+    font-size: 18px;
+    justify-content: center;
+    font-weight: 700;
+    text-align: center;
+    //text-shadow: -1px 0 #63abee, 0 1px #c5c5c5, 1px 0 #3e8eb3, 0 -1px #afdbf8;
+    mix-blend-mode: overlay;
+    line-height: 1;
+  }
+}
